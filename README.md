@@ -5,14 +5,11 @@ Pequeño proyecto de simulación de una página web de ConquerBlocks desarrollad
 ## Contenido
 - Página principal
 - Varias páginas internas
-- Estilos CSS
+- Navegadores
 - Recursos de imagen
-- Scripts JavaScript
 
 ## Tecnologías usadas
 - HTML5
-- CSS3
-- JavaScript
 
 ## Autor
 Alessandro Biliato
