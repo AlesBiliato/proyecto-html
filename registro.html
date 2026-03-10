@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registro | ConquerBlocks</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <meta name="description" content="Formulario de registro para nuevos usuarios de la plataforma ConquerBlocks.">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <header>
+      <a href="index.html">
+        <img src="img/common/logo.avif" alt="Logo del sitio web">
+      </a>
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="quienes-somos.html">Quiénes somos</a></li>
+          <li><a href="cursos.html">Cursos</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li>Registro</li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+  <main>
+    <h1>Registro</h1>
+    <h2>Formulario de registro</h2>
+    <form action="post" enctype="multipart/form-data">
+      <p>
+        <label for="name">Nombre completo</label>
+        <input type="text" name="name" id="name">
+      </p>
+      <p>
+        <label for="birthday">Fecha de nacimiento</label>
+        <input type="date" name="birthday" id="birthday">
+      </p>
+      <p>
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="jose.perez@ejemplo.com" id="email" required>
+      </p>
+      <p>
+        <label for="address">Dirección</label>
+        <input type="address" name="address" placeholder="Calle Falsa 123" size="25" id="address">
+      </p>
+      <p>
+        <label for="web">Página web</label>
+        <input type="url" name="web" id="web">
+      </p>
+      <p>
+        <label for="photo">Foto</label>
+        <input type="file" name="photo" id="photo">
+      </p>
+      <p>
+        <label for="bio">Biografía</label><br />
+        <textarea name="bio" rows="5" cols="30" placeholder="Cuéntanos algo sobre ti..." id="bio"></textarea>
+      </p>
+      <p>
+        <input type="submit" value="Registrar">
+      </p>
+    </form>
+  </main>
+
+  <footer>
+    © 2023 - Todos los derechos reservados. <a href="aviso-legal.html">Aviso legal</a>
+  </footer>
+</body>
+
+</html>
